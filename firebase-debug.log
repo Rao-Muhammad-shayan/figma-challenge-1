@@ -1,0 +1,51 @@
+[debug] [2024-12-09T14:49:22.431Z] ----------------------------------------------------------------------
+[debug] [2024-12-09T14:49:22.436Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\uc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-09T14:49:22.437Z] CLI Version:   13.28.0
+[debug] [2024-12-09T14:49:22.437Z] Platform:      win32
+[debug] [2024-12-09T14:49:22.437Z] Node Version:  v22.12.0
+[debug] [2024-12-09T14:49:22.438Z] Time:          Mon Dec 09 2024 19:49:22 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-12-09T14:49:22.438Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-09T14:49:22.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-09T14:49:22.450Z] > authorizing via signed-in user (areesharao9@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\figma-challenge#1
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-09T14:50:07.277Z] Checked if tokens are valid: false, expires at: 1733732163020
+[debug] [2024-12-09T14:50:07.277Z] Checked if tokens are valid: false, expires at: 1733732163020
+[debug] [2024-12-09T14:50:07.278Z] > refreshing access token with scopes: []
+[debug] [2024-12-09T14:50:07.282Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-09T14:50:07.282Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-09T14:50:07.744Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-09T14:50:07.744Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-09T14:50:07.768Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-09T14:50:08.592Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-12-09T14:50:08.592Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project raomuhammadshayan-c864c (Raomuhammadshayan) 
+[info] 
+=== Hosting Setup
+[debug] [2024-12-09T14:50:10.756Z] Checked if tokens are valid: true, expires at: 1733759406744
+[debug] [2024-12-09T14:50:10.757Z] Checked if tokens are valid: true, expires at: 1733759406744
+[debug] [2024-12-09T14:50:10.757Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/raomuhammadshayan-c864c [none]
+[debug] [2024-12-09T14:50:11.086Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/raomuhammadshayan-c864c 200
+[debug] [2024-12-09T14:50:11.087Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/raomuhammadshayan-c864c {"projectId":"raomuhammadshayan-c864c","projectNumber":"989265777387","displayName":"Raomuhammadshayan","name":"projects/raomuhammadshayan-c864c","resources":{"hostingSite":"raomuhammadshayan-c864c"},"state":"ACTIVE","etag":"1_22480d33-aeb3-41c2-82ad-1a114b007e07"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

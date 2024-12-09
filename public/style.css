@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins-regular;
+}
+@font-face {
+    font-family: poppins-regular;
+    src: url(Assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+:root{
+    --primary-b:#000;
+    --font:1.3rem;
+}
+.img{
+    width: 150px;
+    height: 100px;
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+}
+.nav-box{
+    display: flex;
+    justify-content: center;
+  margin-top: 1.5rem;
+}
+.ni{
+    display: flex;
+gap: 6rem;
+}
+.ni>li>a{
+    color: #fff;
+font-size: 1.1rem;
+font-weight: bold;
+}
+.ni>li>a:hover{
+color: goldenrod !important;
+border-bottom: 1px solid red;
+}
+.ni>li>a:active{
+    color: goldenrod !important;
+}
+.t{
+    background-color: green;
+    color: #fff ;
+
+}
+.bti{
+    margin-top: 2rem;
+}
+.bti:active{
+border-color: goldenrod;
+}
+.fa-bars{
+    color: #ffff !important;
+    font-size: 1.5rem;
+    padding: 0.8rem 0.8rem;
+}
+/* main */
+main{
+    display: flex;
+    justify-content:space-evenly;
+     flex-wrap: wrap;
+    position: relative;
+   
+}
+.section1{
+    position: absolute;
+}
+.content{
+    margin-top: 6rem;
+   
+    padding: 0.4rem 1.3rem ;
+}
+
+.section1>.content>h1{
+    font-size: 3rem !important;
+    font-weight: light !important; 
+    padding: 1rem 0;
+
+}
+.content>p{
+    font-size: 1rem;
+    margin-top: 2rem;
+  text-align: justify;
+}
+
+.content>button{
+   border: none !important;
+}
+.content a{
+    color: #fff;
+    background: transparent !important;
+    text-decoration: none;
+   font-size: 1.1rem;
+}
+.content a:hover{
+    color: goldenrod;
+    border-bottom:1px solid red ;
+}
+/* about */
+.abouts{
+    margin-top: 4rem;
+    margin-left: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+}
+.about{
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.ac{
+    color: #fff;
+    margin-right: 0rem;
+}
+
+.ac>.content>h1{
+    margin-top: -3.5rem;
+    text-align: center;
+   
+
+}
+.ac>.content>p{
+  padding: 1rem;
+    font-size: 1.2rem;
+}
+/* geography */
+.geography{
+    margin-top: 3rem;
+   background: #1f1f1f;
+}
+.vb>p{
+    font-size: 1.1rem;
+}
+.vb>h5{
+    margin-top:-2rem ;
+    color: #8c8c8c;
+}
+.vb>p,hr{
+    padding: 1.5rem 0;
+    color: #8c8c8c;
+}
+.vb>form{
+    margin-top: 2rem;
+    color: #8c8c8c;
+  
+}
+.vb input,label {
+   padding: 1rem;
+   font-size: 1.2rem;
+}
+.vb>.hut{
+margin-top: 5rem;
+background: #fff;
+padding: 0.5rem  1rem;
+font-size: 1.5rem;
+border: 1px solid #fff;
+border-radius: 0.8rem;
+
+}
+.vb>.hut:hover{
+   
+    border: 3px solid blue;
+}
+.dri{
+    margin-top: -2rem;
+}
+.vb .too{
+    padding: 0.8rem;
+}
+.vg{
+    height: 550px;
+}
+.vg>img{
+    height: 100%;
+}
+@media only screen and (max-width:1396px) {
+    .ni{
+        gap: 5rem;
+    }
+}
+@media only screen and (max-width:1200px) {
+    .ni{
+        gap: 3rem;
+    }
+}
